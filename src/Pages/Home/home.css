@@ -1,0 +1,199 @@
+.search__section {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     padding: 10px 0;
+}
+
+.search__section input {
+     width: 50%;
+     padding: 10px;
+     border: 1px solid #dddddd;
+     border-radius: 25px;
+     font-size: 12px;
+     font-family: 'Poppins', sans-serif;
+}
+
+.add-btn {
+     margin: 0 150px;
+     float: right;
+     padding: 8px 18px;
+     border-radius: 6px;
+     border: none;
+     background-color: #007bff;
+     font-size: 11px;
+     font-family: 'Poppins', sans-serif;
+     color: #ffff;
+}
+
+.add-btn:hover {
+     background-color: #035fc2;
+}
+
+.table_container {
+     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table_section{
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 30px;
+     margin: 20px 0;
+     border-radius: 8px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     background-color: #ffff !important;
+}
+
+table {
+     border-collapse: collapse;
+     width: 100%;
+     margin: 20px;
+     border-radius: 10px 10px 0px 0px;
+     border: 1px solid #dddddd;
+}
+
+th,
+td {
+     text-align: left;
+     padding: 8px;
+}
+
+th {
+     background-color: rgb(140, 134, 134);
+     font-size: 12px;
+     font-weight: normal;
+     color: #ffff;
+}
+
+tr:nth-child(even) {
+     background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+     background-color: #ffffff;
+}
+
+tr:hover {
+     background-color: #f0eded;
+}
+
+.action_keys {
+     display: flex;
+     justify-content: flex-start;
+     gap: 10px;
+}
+
+.edit_btn,
+.delete_btn {
+     border: none;
+     padding: 5px 8px;
+     border-radius: 4px;
+}
+
+.edit_btn {
+     color: rgb(71, 71, 250);
+     background-color: rgb(225, 225, 247);
+}
+
+.edit_btn:hover {
+     color: blue;
+     background-color: rgb(201, 201, 255);
+}
+
+.delete_btn {
+     color: red;
+     background-color: rgb(255, 237, 237);
+}
+
+.delete_btn:hover {
+     color: white;
+     background-color: rgb(201, 0, 0);
+}
+
+.pagination {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 15px;
+}
+
+.pagination p {
+     color: grey;
+}
+
+.pagination button {
+     padding: 6px 10px;
+     border: none;
+     border-radius: 6px;
+     font-size: 11px;
+}
+
+.dialog {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     z-index: 999;
+}
+
+.dialog-box {
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+     max-width: 400px;
+     width: 100%;
+}
+
+.dialog h2 {
+     text-align: center;
+     margin-bottom: 10px;
+}
+
+.dialog label {
+     display: block;
+     margin-bottom: 5px;
+}
+
+.dialog input {
+     width: 100%;
+     padding: 5px;
+     margin-bottom: 10px;
+     border: 1px solid #ccc;
+     border-radius: 3px;
+}
+
+.dialog button {
+     background-color: #007bff;
+     color: #fff;
+     border: none;
+     border-radius: 3px;
+     padding: 10px 20px;
+     cursor: pointer;
+}
+
+.dialog button.cancel {
+     background-color: #ccc;
+}
+
+.dialog-action-btn {
+     display: flex;
+     justify-content: space-around;
+     font-size: 12px;
+}
+
+.error {
+     color: red;
+     margin: 0;
+}

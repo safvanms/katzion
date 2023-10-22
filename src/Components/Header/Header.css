@@ -1,0 +1,33 @@
+.header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-inline: 45px;
+     border-bottom: 1px solid #dddddd;
+     margin-bottom: 20px;
+     position: sticky;
+     top: 0;
+     background-color: #ffff;
+}
+
+.left__head h2 {
+     color: #006bff;
+}
+
+.right__head {
+     display: flex;
+     align-items: center;
+     gap: 20px;
+}
+
+.button {
+     width: 120px;
+     height: 30px;
+     border-radius: 6px;
+     background-color: #006bff;
+     color: #ffff;
+     font-size: 12px;
+     font-family: 'Poppins', sans-serif;
+     border: none;
+     cursor: pointer;
+}
